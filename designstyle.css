@@ -1,0 +1,352 @@
+.wrap {
+	padding: 20px;
+	margin: 0 auto;
+	height: 75%;
+	width: 90%;
+
+}
+
+.content {
+	font-family: Roboto;
+	overflow: hidden;
+
+}
+
+.title {
+	margin-top: 75px;
+	font-size: 30px;
+	font-weight: 500;
+	text-align: center;
+	margin-left: 27px;
+}
+
+.navigation	{
+	text-align: center;
+	float: center;
+	overflow: hidden;
+	margin-left: 25px;
+}
+
+ul {
+	display: inline-block;
+}
+
+.mainTitle {
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: bold;
+	color: rgb(32, 103, 151);
+	line-height: 1.4;
+}
+
+.search	{
+	float: center;
+	margin-top: 30px;
+	font-family: Roboto;
+	color: rgb(32, 103, 151);
+}
+
+.neighbSearch {
+	height: 30px;
+	width: 230px;
+	top: 10px;
+	left: 10px;
+	border-radius: 3px;
+    border:solid 1px black;
+    margin-top: 15px;
+    margin-right: 0px;
+    font-size: 1em;
+
+}
+
+.priceRange {
+	margin-top: 15px;
+}
+
+.priceMin {
+	height: 30px;
+	width: 100px;
+	top: 10px;
+	left: 10px;
+	border-radius: 3px;
+    border:solid 1px black;
+    margin-top: 15px;
+    margin-right: 5px;
+    font-size: 1em;
+}
+
+.priceMax {
+	height: 30px;
+	width: 100px;
+	top: 10px;
+	left: 10px;
+	border-radius: 3px;
+    border:solid 1px black;
+    margin-top: 15px;
+    font-size: 1em;
+}
+
+.beds {
+	margin-top:15px;
+	width: 130px;
+	
+}
+
+.bedsList {
+	margin-top: 15px;
+}
+
+.bedsMin{
+	height: 30px;
+	width: 100px;
+	top: 10px;
+	left: 10px;
+	border-radius: 3px;
+    border:solid 1px black;
+    margin-top: 15px;
+    margin-right: 5px;
+    font-size: 1em;
+}
+
+.bedsMax {
+	height: 30px;
+	width: 100px;
+	top: 10px;
+	left: 10px;
+	border-radius: 3px;
+    border:solid 1px black;
+    margin-top: 15px;
+    font-size: 1em;
+}
+
+.baths {
+		margin-top: 15px;
+}		
+
+.bathList {
+	height: 30px;
+	width: 100px;
+	top: 10px;
+	margin-right: 15px;
+	border-radius: 3px;
+    border:solid 1px black;
+    margin-top: 15px;
+    margin-right: 5px;
+    font-size: 1em;
+}
+
+
+
+.bathsMin {
+	height: 30px;
+	width: 100px;
+	top: 10px;
+	left: 10px;
+	border-radius: 3px;
+    border:solid 1px black;
+    margin-top: 15px;
+    margin-right: 5px;
+    font-size: 1em;
+}
+
+.bathsMax {
+	height: 30px;
+	width: 100px;
+	top: 10px;
+	left: 10px;
+	border-radius: 3px;
+    border:solid 1px black;
+    margin-top: 15px;
+    margin-right: 5px;
+    font-size: 1em;
+}
+
+
+
+.button {
+	margin-top: 25px;
+	width: 230px;
+	padding: 5px;
+}
+
+
+.submit	{
+
+	height: 55px;
+	width: 240px;
+	padding: 9px;
+	top: 90px;
+	cursor: pointer;
+	background: rgb(46, 109, 164);
+	text-align: center;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	line-height: 1;
+	border-radius: 4px;
+
+}
+
+
+li a {
+	color: rgb(32, 103, 151);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin: 10px;
+    overflow: hidden;
+}
+
+li p {
+	color: black;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 10px;
+    overflow: hidden;
+}
+
+li table {
+	color: black;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 10px;
+    overflow: hidden;
+}
+
+/****** Results Page ****** */
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.back {
+    color: rgb(32, 103, 151);
+    font-family: Roboto;
+
+}
+
+.resultsBox {
+	height: 300px;
+	width: 75%;
+	
+}
+
+.resultImage {
+	border: solid black;
+	width: 240px;
+	height: 500px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px; 
+
+}
+
+.expand {
+	height: 45px;
+	width: 80px;
+	padding: 9px;
+	top: 90px;
+	cursor: pointer;
+	background: rgb(46, 109, 164);
+	text-align: center;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	line-height: 1;
+	border-radius: 4px;
+}
+
+
+.resultDetails {
+	color: rgb(32, 103, 151);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.resultDetails2 {
+	color: black;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.resultDetails3 {
+	color: black;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.size {
+	color: black;
+	height: 20px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin: 10px;
+    overflow: hidden;
+}
+
+
+.border{
+	border: solid rgb(211,211,211);
+	overflow: hidden;
+	border-width: 1px;
+}
+
+
+.details{
+	border: solid rgb(211,211,211);;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    overflow: hidden;
+    border-width: 1px;
+	height: 300px;
+	margin-top: 10px;
+	font-family: Roboto;
+
+}
+
+.availability {
+    overflow: hidden;
+    border-width: 1px;
+	margin-top: 10px;
+	font-family: Roboto;
+	margin-bottom: 20px;
+}
+
+.bottomBorder {
+	border: solid rgb(32, 103, 151);
+	overflow: hidden;
+	border-width: 2px;
+	
+}
+
+

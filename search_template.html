@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script>window.html5 || document.write('<s' + 'cript src="js/vendor/html5shiv.js">' + '<' + '/s' + 'cript>');</script>
+<![endif]-->
+<title>Rent Website</title>
+
+<link rel="stylesheet" type="text/css" href="designstyle.css">
+</head>
+
+<style>
+      .listing-image{
+        height: 25vh;
+        padding-right: 5px;
+      }
+    </style>
+
+<body style="box-sizing: border-box; height: 100%">
+<header>
+  <div class="wrap" style="border-bottom-style:solid">
+    <img alt src="Images/Logo.png" style="margin:0px; width: 170px; height: 150px; border-radius:0px; float: left;">
+    <div class="content">
+      <div class ="title"> Welcome to Rent Website </div>
+      <div class="navigation">
+        <ul> About </ul>
+        <ul> FAQs </ul>                                                     
+      </div>  
+    </div>
+  </div>
+
+</header>
+
+<div class="main">
+  <div class="wrap">
+    <div class="content" style="margin-left:200px;">
+      <div class="mainTitle"> Start Your Search. </div>
+      <div class="search">
+        <div class="neighborhood"> Neighborhood
+                  <form method="post" name="search" action="" id="form">
+                    <input list="neighborhood" class="neighbSearch" name="neighborhood" placeholder="Select one">
+                    <datalist id="neighborhood">
+                      <option value="Chelsea"></option>
+                      <option value="East Village"></option>
+                      <option value="Flatiron"></option>
+                      <option value="Gramercy"></option>
+                    </datalist>
+                </div>
+                
+                <div class="priceRange"> Price Range 
+                  <div>
+                    <input list="priceMin" class="priceMin" name="priceMin" placeholder="Min.">
+                    <datalist id="priceMin">
+                      <option value="500"></option>
+                      <option value="750"></option>
+                      <option value="1,000"></option>
+                      <option value="1,250"></option>
+                      <option value="1,500"></option>
+                      <option value="1,750"></option>
+                      <option value="2,000"></option>
+                      <option value="2,250"></option>
+                      <option value="2,500"></option>
+                      <option value="2,750"></option>
+                      <option value="3,000"></option>
+                      <option value="3,500"></option>
+                      <option value="4,000"></option>
+                      <option value="4,500"></option>
+                      <option value="5,000"></option>
+                      <option value="6,000"></option>
+                      <option value="7,000"></option>
+                      <option value="8,000"></option>
+                      <option value="9,000"></option>
+                      <option value="10,000"></option>
+                      <option value="11,000"></option>
+                      <option value="12,000"></option>
+                      <option value="13,000"></option>
+                      <option value="14,000"></option>
+                      <option value="15,000"></option>
+                      <option value="16,000"></option>
+                      <option value="17,000"></option>
+                    </datalist>
+
+                    to 
+                    <input list="priceMax" class="priceMax" name="priceMax" placeholder="Max." />
+
+                    <datalist id="priceMax">
+                      <option value="500"></option>
+                      <option value="750"></option>
+                      <option value="1,000"></option>
+                      <option value="1,250"></option>
+                      <option value="1,500"></option>
+                      <option value="1,750"></option>
+                      <option value="2,000"></option>
+                      <option value="2,250"></option>
+                      <option value="2,500"></option>
+                      <option value="2,750"></option>
+                      <option value="3,000"></option>
+                      <option value="3,500"></option>
+                      <option value="4,000"></option>
+                      <option value="4,500"></option>
+                      <option value="5,000"></option>
+                      <option value="6,000"></option>
+                      <option value="7,000"></option>
+                      <option value="8,000"></option>
+                      <option value="9,000"></option>
+                      <option value="10,000"></option>
+                      <option value="11,000"></option>
+                      <option value="12,000"></option>
+                      <option value="13,000"></option>
+                      <option value="14,000"></option>
+                      <option value="15,000"></option>
+                      <option value="16,000"></option>
+                      <option value="17,000"></option>
+                    </datalist>
+                  </div>
+
+
+                  <div class="bedsList"> Beds 
+                    <div>
+                    <input list="bedsMin" class="bedsMin" name="bedsMin" placeholder="Beds" />
+
+                    <datalist id="bedsMin">
+                      <option value="Studio"></option>
+                      <option value="1"></option>
+                      <option value="2"></option>
+                      <option value="3"></option>
+                      <option value="4"></option>
+                      <option value="5"></option>
+                    </datalist>
+
+                      to
+
+                    <input list="bedsMax" class="bedsMax" name="bedsMax" placeholder="Beds" />
+
+                    <datalist id="bedsMax">
+                      <option value="Studio"></option>
+                      <option value="1"></option>
+                      <option value="2"></option>
+                      <option value="3"></option>
+                      <option value="4"></option>
+                      <option value="5"></option>
+                    </datalist>
+
+                    </div>
+                  </div>  
+              
+              <div class="baths"> Baths  
+                <div class="bathsList"> 
+
+                      <input list="bathsMin" class="bathsMin" name="bathsMin" placeholder="Baths" />
+
+                      <datalist id="bathsMin">
+                        <option value="1"></option>
+                        <option value="1.5"></option>
+                        <option value="2"></option>
+                        <option value="3.5"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                      </datalist>
+
+                      to
+
+                      <input list="bathsMax" class="bathsMax" name="bathsMax" placeholder="Baths" />
+
+                      <datalist id="bathsMax">
+                        <option value="1"></option>
+                        <option value="1.5"></option>
+                        <option value="2"></option>
+                        <option value="3.5"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                      </datalist>
+
+                    </div>
+                  </div>
+
+                     <div class="button">
+                        <button class="submit"> Search </button>
+                      </div>
+
+                      </form>
+                    </div>  
+    </div>
+  </div>
+</div>
+
+<ul id="listings">
+      </ul>
+
+    </div>
+    <script type="text/javascript" src="search.js"></script>
+    <script type="text/javascript">
+      const LISTINGS = {%LISTINGS%};
+      const CACHE = {%CACHE%};
+    </script>
+  
+
+<footer>
+  <div class="wrap" style="background: rgb(56,56,56); margin-top: 100px">
+    <div class="content" style="text-align: center; color: rgb(255,255,255); font-weight:lighter;">
+      © 2018 RentWise, Inc.
+
+    </div>
+
+
+
+
+  </body>
+</html>
